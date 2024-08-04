@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/kisha/Documents/Quality-Prediction-MLOPs-Project/mlruns/0/9e1f243950e14a03bd2d0471710b9666/artifacts
+end_time: 1722805964909
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e1f243950e14a03bd2d0471710b9666
+run_name: adaptable-duck-201
+run_uuid: 9e1f243950e14a03bd2d0471710b9666
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722805961211
+status: 3
+tags: []
+user_id: kisha
