@@ -4,6 +4,7 @@ from src.mlProject import logger
 from sklearn.linear_model import ElasticNet
 import joblib
 from src.mlProject.entity.config_entity import ModelTrainerConfig
+from sklearn.ensemble import RandomForestRegressor
 
 
 
@@ -24,7 +25,10 @@ class ModelTrainer:
 
 
         lr = ElasticNet(alpha=self.config.alpha, l1_ratio=self.config.l1_ratio, random_state=42)
+        lr2 = RandomForestRegressor(n_estimators=100, random_state=42)
+
         lr.fit(train_x, train_y)
+        lr2.fit(train_x,train_y)
 
         joblib.dump(lr, os.path.join(self.config.root_dir, self.config.model_name))
 
