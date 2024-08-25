@@ -7,7 +7,7 @@ from src.mlProject.pipeline.stage_04_model_trainer import ModelTrainerTrainingPi
 from src.mlProject.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 
 
-STAGE_NAME = "Data Ingestion stage"
+STAGE_NAME = "Data Ingestion Stage"
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
    data_ingestion = DataIngestionTrainingPipeline()
